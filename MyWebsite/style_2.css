@@ -1,0 +1,122 @@
+body{
+  background-color: #f4f4f4;
+  font:15px/1.5;
+  margin:0;
+  font-family:Sans-Serif,cursive,monospace;
+}
+.container{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+nav a:hover{
+  font-size:19px;
+}
+
+header{
+  background-color:#3b3b3b;
+  padding-top: 5px;
+  min-height:70px;
+  color:#ffffff;
+  border-bottom:2px #e8491d solid;
+}
+
+header a{
+  color:inherit;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  font-size:16px;
+  display:inline;
+  padding: 0 4px 0 4px;
+}
+
+header #highlight h1{
+  float:left;
+  padding-top:0;
+  margin:0;
+}
+header nav{
+  float:right;
+}
+
+header .new{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header .current{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+div #first_para{
+  float:left;
+  width:25%;
+  text-align:center;
+}
+div #first_para h2{
+  padding:0;
+  margin:0;
+  font-size: 30px;
+}
+
+div .second_para{
+  display:inline;
+  float:right;
+  width:25%;
+  text-align:center;
+}
+
+div .second_para h2{
+  font-size:30px;
+}
+
+.full{
+  background-color: #3b3b3b;
+  padding:22px;
+
+}
+section h3{
+  font-size:23px;
+  float:left;
+  margin:0;
+  color:#ffffff;
+  padding-top: 6px;
+
+}
+div .Address{
+  float:right;
+  padding-right: 10px;
+
+}
+
+.button_2{
+  height:34px;
+  background-color:#e8491d;
+  border:0;
+  color:#ffffff;
+  padding-left:4px;
+  padding-right:4px;
+}
+
+.Address input[type="email"]{
+  height:30px;
+  font-size: inherit;
+  border:0;
+}
+
+footer{
+  text-align:center;
+  background-color:#e8491d;
+  color:#ffffff;
+  font-size:20px;
+  padding:20px;
+
+}
